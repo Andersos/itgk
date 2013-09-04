@@ -65,11 +65,9 @@ disp(sum(isprime(1:1000)))
 %end
 
 if(kubeVolum(1) > kuleVolum(1))
-    disp 'kubeVolum er størst med'
-    disp (kubeVolum(1) - kuleVolum(1))
+    fprintf('kubeVolum er %d større', (kubeVolum(1) - kuleVolum(1)));
 else
-    disp 'kuleVolum er størt med'
-    disp (kuleVolum(1) - kubeVolum(1))
+    fprintf('kuleVolum er %d større', (kuleVolum(1) - kubeVolum(1)))
 end
 % Svar kuleVolum er størst med 3.1888
 
@@ -82,8 +80,3 @@ if (pyramideVolum(lengde, hoyde) == 15)
 else
     disp 'funksjonen er feil'
 end
-
-
-
-
-
